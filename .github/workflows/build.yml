@@ -1,4 +1,4 @@
-name: Build TakeOne APK
+name: Build SwipeSort APK
 
 on:
   workflow_dispatch:
@@ -28,17 +28,17 @@ jobs:
           ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk TakeOne.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk SwipeSort.apk
 
       - name: Keep APK as a build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: TakeOne-apk
-          path: TakeOne.apk
+          name: SwipeSort-apk
+          path: SwipeSort.apk
 
       - name: Publish APK as a release (direct phone download link)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          name: TakeOne build ${{ github.run_number }}
-          files: TakeOne.apk
+          name: SwipeSort build ${{ github.run_number }}
+          files: SwipeSort.apk
