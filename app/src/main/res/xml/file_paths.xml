@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Internal shared storage (/storage/emulated/0) -->
+    <external-path name="storage" path="." />
+    <!-- SD cards and USB drives live outside it -->
+    <root-path name="root" path="." />
+</paths>

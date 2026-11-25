@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SwipeSort: a box with an up arrow and a down arrow, and a "?" on the box. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Scaled to sit inside the 66dp adaptive-icon safe zone -->
+    <group
+        android:pivotX="54"
+        android:pivotY="55.5"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateY="-3">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="@color/ic_up"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M42,47 L42,26 M35,33 L42,26 L49,33" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="@color/ic_down"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M66,26 L66,47 M59,40 L66,47 L73,40" />
+        <path
+            android:fillColor="@color/ic_box"
+            android:pathData="M32,58 L76,58 L76,82 Q76,86 72,86 L36,86 Q32,86 32,82 Z" />
+        <path
+            android:fillColor="@color/ic_box"
+            android:pathData="M29,53 Q29,51 31,51 L77,51 Q79,51 79,53 L79,57 Q79,59 77,59 L31,59 Q29,59 29,57 Z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="@color/ic_bg"
+            android:strokeWidth="1.6"
+            android:pathData="M29,59.5 L79,59.5" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="@color/ic_bg"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:pathData="M49.5,67 C49.5,64 51.8,62 54.5,62 C57.3,62 59.5,64 59.5,66.6 C59.5,68.8 58.1,69.9 56.5,70.9 C55.2,71.8 54.5,72.7 54.5,74.5" />
+        <path
+            android:fillColor="@color/ic_bg"
+            android:pathData="M54.5,79.6 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    </group>
+</vector>

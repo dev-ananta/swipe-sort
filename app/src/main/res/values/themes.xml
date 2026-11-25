@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_bg">#FF1E293B</color>
+    <color name="ic_box">#FFF1F5F9</color>
+    <color name="ic_up">#FF34D399</color>
+    <color name="ic_down">#FFFB923C</color>
+
+    <!-- Compose draws everything; this only covers the window before the first frame. -->
+    <style name="Theme.SwipeSort" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
